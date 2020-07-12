@@ -2,6 +2,7 @@
 title: info
 layout: info
 ---
+
 1984 <i class="fa fa-long-arrow-right" aria-hidden="true" aria-label="to"></i> present<br>
 california <i class="fa fa-long-arrow-right" aria-hidden="true" aria-label="to"></i> oregon <i class="fa fa-long-arrow-right" aria-hidden="true" aria-label="to"></i> missouri <i class="fa fa-long-arrow-right" aria-hidden="true" aria-label="to"></i> ?
 
