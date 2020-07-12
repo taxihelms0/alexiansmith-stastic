@@ -1,0 +1,12 @@
+<nav class="topnav" id="myTopnav">
+  <ul id="menuList">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if item.link == '/' %} id="brand"{% endif %}class="{% if page.url == item.link %}current {% endif %}menuItem">{{ item.name }}</a>
+    {% endfor %}
+    <a href="javascript:void(0);" class="icon" onclick="dropDown()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </ul>
+</nav>
+  
+<script type="text/javascript" src="/assets/js/nav.js"> </script>
